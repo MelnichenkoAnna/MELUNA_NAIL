@@ -1,0 +1,389 @@
+.header{
+	margin-top: -8px;
+	width: 100%;
+	height: 160px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	margin-bottom: 30px;
+	background-color: #FFE4E1;
+}
+
+.cont-in{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cont{
+	width: 23%;
+	height: 100px;
+	margin: 20px;
+	background-color: white;
+	border-style: solid;
+	border-width: 8px;
+	border-color: #474747;
+	display: inline-block;
+}
+
+.logo{
+	margin-left: 20px;
+	margin-top: 5px;
+	display: flex;
+	font-size: 35px;
+	font-weight: bolder;
+	letter-spacing: 0.4em;
+	font-family: Montserrat;
+	font-stretch: extra-expanded;
+	color: #474747;
+	text-decoration: none;
+}
+
+.nav{
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-right: 0px;
+	font-family: Montserrat;
+}
+
+.nav-link{
+	display: inline-block;
+	background: #474747;
+	/*vertical-align: top;*/
+	margin: 0 15px;
+	padding: 15px;
+	width: 120px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.nav-link:hover{
+	background: grey;
+}
+
+.nav ul{
+	padding: 0px;
+	list-style: none;
+}
+
+.nav > ul > li{
+	float: left;
+	width: 185px;
+	position: relative;
+}
+
+.nav li a{
+	display: block;
+	background: #474747;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 15px;
+}
+
+.nav li a:hover{
+	background: grey;
+}
+
+ /*выплывающее меню*/
+.nav li .second{ 
+	margin-left: 15px;
+	display: none;
+	position: absolute; /*фиксированое положение пунктов*/
+}
+
+.nav li:hover .second{
+	display: block;
+}
+
+.nav li li{
+	width: 150px;
+}
+
+.button {
+  display: inline-block;
+  margin-right: 10px;
+  width: 55px;
+  height: 55px;
+  background: url('../images/door.jpg') 0 0 / 100% no-repeat;
+  cursor: pointer;
+  border-radius: 50%;
+
+box-shadow: 0 3px 20px rgba(0,0,0,.25);
+}
+
+.button1 {
+	display: inline-block;
+	margin-right: 10px;
+	width: 55px;
+	height: 55px;
+	background: url('../images/basket.png') 0 0 / 100% no-repeat ;
+	cursor: pointer;
+	border-radius: 50%;
+  
+  box-shadow: 0 3px 20px rgba(0,0,0,.25);
+  }
+
+.korz-btn{
+	
+	color: #474747;
+	text-align: center;
+	text-decoration: none;
+	
+}
+
+.vihod{
+	display: block;
+	background: #474747;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.text-btn{
+	display: flex;
+	flex-direction: column;
+}
+
+.intro{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: white;
+	height: 100px;
+	margin-top: 150px;
+}
+
+.intro-title{
+	font-family: Montserrat;
+	font-size: 45px;
+	font-weight: 100;
+	text-transform: uppercase;
+	text-align: center;
+	color: #474747;
+}
+
+.slider-cont{
+	text-align: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 450px;
+	background-color: #FFE4E1;
+}
+
+/* Ограничивающая оболочка */
+.slick-list {
+	overflow: hidden;
+}
+
+/* Лента слайдов */
+.slick-track{
+	display: flex;
+}
+
+.slider{
+	position: relative;
+	padding: 40px 60px;
+}
+
+.slider-item{
+	text-align: center;
+	outline: none;
+}
+
+.slider .slick-arrow{
+	position: absolute;
+	top: 50%;
+	margin: -30px 0px 0px 0px;
+	border: 0px;
+	outline: none;
+	z-index: 10;
+	font-size: 0;
+	width: 30px;
+	height: 40px;
+}
+
+.slider .slick-arrow.slick-prev{
+	left: 0;
+	background: url('../images/left.svg') 0 0 / 120% no-repeat;
+}
+
+.slider .slick-arrow.slick-next{
+	right: 0;
+	background: url('../images/right.svg') 0 0 / 120% no-repeat;
+}
+
+.round{
+	border-radius: 200px;
+}
+
+.round:hover{
+	opacity: 0.6;
+}
+
+.btn{
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 40px;
+	border: 3px solid #575757;
+	font-size: 14px;
+	font-weight: bold;
+	color: #575757;
+	text-transform: uppercase;
+	text-decoration: none;	
+}
+
+.intro-in{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: white;
+	height: 100px;
+	margin-top: 450px;
+}
+
+.favorite{
+	display: flex;
+    justify-content: space-around;
+	left: 0;
+	right: 0;
+	width: 100%;
+	background-color: #FFE4E1;
+
+}
+
+.favorite-wind{
+	width: 350px;
+	height: 450px;
+display: flex;
+flex-direction: column;
+	background: white;
+	margin-top: 40px;
+	margin: 40px;
+}
+
+.fav-text{
+	margin-left: 20px;
+	margin-right: 20px;
+	color: #575757;
+}
+
+.cifr{
+	color: #3D9BE9;
+	font-size: 25px;
+	font-weight: bolder;
+	font-family: Avenir Light;
+}
+
+.cont-button{
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cont-btn{
+	padding: 10px 25px;
+	margin-right: 15px;
+	border: 3px solid #575757;
+	font-size: 14px;
+	font-weight: bold;
+	color: #575757;
+	text-transform: uppercase;
+	text-decoration: none;	
+}
+
+/*Для страницы "Гель-лаки" */
+
+.cont_glav{
+	display: flex;
+    flex-direction: column;
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 1330px;
+	background-color: #FFE4E1;
+}
+
+.cont_one{
+	display: flex;
+    justify-content: center;
+	
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 430px;
+	
+}
+.cont_two{
+	width: 250px;
+	height: 400px;
+	background: white;
+	display: flex;
+    flex-direction: column;
+	margin-top: 40px;
+	margin: 30px;
+}
+
+body
+{
+	background-color:white;
+}
+
+.main{
+	padding-top: 100px;
+	margin-top: 100px;
+	
+}
+
+#container{
+    opacity: 0;
+}
+
+.cont_text{
+	margin-left: 15px;
+	margin-right: 15px;
+	color: #575757;
+}
+
+.cont_but{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.price{
+	color: #3D9BE9;
+	font-size: 25px;
+	font-weight: bolder;
+	margin-left: 15px;
+	font-family: Avenir Light;
+}
+
+.cont_korz{
+	padding: 10px 15px;
+	margin-right: 15px;
+	border: 3px solid #575757;
+	font-size: 14px;
+	font-weight: bold;
+	color: #575757;
+	text-transform: uppercase;
+	text-decoration: none;	
+}
+
+
+
+
+
+
